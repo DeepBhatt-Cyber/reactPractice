@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.content {
+  border: 5px #c0c0ff solid;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+td:first-child {
+  width: 72%;
+}
+
+td:last-child{
+  min-width: 119px;
+}
+
+th{
+  text-align: left;
+}
+
+tr:nth-child(even){
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+td:nth-child(even){
+  margin-top: 50px !important;
+}
+
+input, button {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  width:max-content;
+  border: 2px #c0c0c0 solid;
+}
+
+button.add {
+  margin-left: 5px;
+  background-color: #0080ff;
+  color: #ffffff;
+  width: 28%;
+  border-radius: 5px;
+}
+
+button.edit {
+  background-color: #20a0b0;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 41%;
+}
+
+button.delete {
+  background-color: #e04040;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-left: 5px;
+  width: 54%;
+}
+
+button.save {
+  background-color: #30b040;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 41%;
+}
+
+button.back {
+  background-color: #707080;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-left: 5px;
+  width: 54%;
+}
+
+button {
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.task {
+  cursor: pointer;
+}
+
+
+.setMargin{
+  margin-right: 5px;
+  margin-left: 5px;
+}
